@@ -1,8 +1,10 @@
 import Head from 'next/head'
 
-// header import
+// component import
 import Header from '../components/Header/Header';
 import OurPremiumHotels from './sections/OurPremiumHotels';
+import HotelPackages from './sections/HotelPackages';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
 
       <Header />
       <OurPremiumHotels />
+      <HotelPackages />
+      <Footer />
     </>
   )
 }

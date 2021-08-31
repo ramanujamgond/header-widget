@@ -1,4 +1,7 @@
 // packages section
+.slider-wrapper {
+    border-radius:  $border-radius;
+}
 
 .package-heading-text {
     font-size: 1.7rem;
@@ -15,20 +18,31 @@
     height: 100%;
     border-radius: $border-radius;
     @include box-shadow($shadows);
-    img {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        border-radius: $border-radius;
+    div:first-child {
+        position: initial !important;
+        div:first-child {
+            display: inherit !important;
+            img {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                border-radius: $border-radius;
+            }
+        }
     }
 }
 
 .package-carousel {
     position: relative;
     border-radius: $border-radius;
-    img {
-        height: 424px;
-        border-radius: $border-radius;
+    div:first-child {
+        position: initial !important;
+        > div {
+            img {
+                height: 420px !important;
+                border-radius: $border-radius;
+            }
+        }
     }
     .package-slider-wrap {
         color: $white-color;
@@ -50,6 +64,7 @@
 
 .package-wrap {
     position: absolute;
+    top: 0;
     width: $width-full;
     height: 100%;
     color: $white-color;
