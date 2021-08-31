@@ -25,6 +25,9 @@
     border-radius: $border-radius;
     div:first-child {
         position: initial !important;
+        > div {
+            display: none !important;
+        }
     }
     Image {
         width: 100%;
