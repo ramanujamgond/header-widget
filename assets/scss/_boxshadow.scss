@@ -1,0 +1,8 @@
+// Box Shadows
+@mixin box-shadow($params) {
+    -webkit-box-shadow: $params;
+    -moz-box-shadow: $params;
+    box-shadow: $params;
+  }
+  
+  $shadows: 0 0.5rem 1rem rgba(0, 0, 0, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.1);

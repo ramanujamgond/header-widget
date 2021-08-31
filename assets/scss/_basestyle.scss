@@ -1,0 +1,51 @@
+/* ==========================================================================
+ *  Base styles
+ * ========================================================================== 
+*/
+* { 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: $cabin-font;
+    background-color: $white-color;
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.bottom-box-shadow {
+    @include box-shadow($shadows);
+}
+
+.primary-bg-color {
+    background-color: #F6F8FB;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.standard-text {
+    color: $gray-text;
+    font-size: 1rem;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $black-color;
+    opacity: 20%;
+    border-radius: $border-radius;
+    display: block;
+}
+
+.default-gray-bg {
+    background-color: $default-gray-bg;
+}

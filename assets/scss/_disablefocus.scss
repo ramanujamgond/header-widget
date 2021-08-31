@@ -1,0 +1,6 @@
+// disable bootstrap input focus
+@mixin disable-focus() {
+    box-shadow: none !important;
+    border: solid 1px #ced4da !important;
+    outline: none !important;
+}

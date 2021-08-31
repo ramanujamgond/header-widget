@@ -1,0 +1,93 @@
+// our premium hotel section
+.our-premium-hotel-text {
+    font-size: 3.125rem;
+    font-family: $playfair-font;
+    font-weight: $font-weight700;
+    line-height: 3.5rem;
+}
+
+.our-hotel-underline{
+    width: 65%;
+    height: 5px !important;
+    background-color: $primary-color;
+    opacity: 1 !important;
+    border-radius: $border-radius;
+}
+
+.h-320px {
+    height: 320px;
+}
+
+.premium-hotel-img-wrapper {
+    position: relative;
+    width: $width-full;
+    height: 100%;
+    border-radius: $border-radius;
+    div:first-child {
+        position: initial !important;
+    }
+    Image {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border-radius: $border-radius;
+    }
+}
+
+.hotel-details-wrapper {
+    position: absolute;
+    bottom: 4%;
+    width: $width-full;
+    color: $white-color;
+    padding: 1rem;
+    letter-spacing: 1px;
+    z-index: 1;
+    .our-hotel-name {
+        font-size: 1rem;
+        font-weight: $font-weight300;
+        text-transform: uppercase;
+    }
+    .our-hotel-location {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+    .starting-rom-price-text {
+        font-size: 80%;
+        letter-spacing: 2px;
+        font-weight: $font-weight300;
+    }
+    .star-rating-wrapper {
+        display: flex;
+        width: $width-full;
+        margin-top: 0.5rem;
+        align-items: center;
+        justify-content: space-between;
+        .star-rating-value {
+            .icon-style {
+                width: 16px;
+            }
+            span {
+                font-size: 0.8rem;
+                font-weight:  $font-weight300;
+                margin-left: 0.1rem;
+            }
+        }
+        .star-rating-likes {
+            @include center-div-flex();
+            position: absolute;
+            right: -4%;
+            margin-left: auto;
+            width: 65px;
+            height: 35px;
+            background-color: $primary-color;
+            border-radius: $border-radius5px;
+            .icon-style {
+                width: 16px;
+            }
+            span {
+                font-size: 0.8rem;
+                margin-left: 0.3rem;
+            }
+        }
+    }
+}

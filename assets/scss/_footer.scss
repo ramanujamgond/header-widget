@@ -1,0 +1,100 @@
+.footer-bg {
+    background-color: $dark-footer;
+    .footer-heading-text {
+        color: $white-color;
+        font-size: 1.3rem;
+        font-weight: $font-weight400;
+        margin: 1rem 0rem;
+    }
+
+    .footer-border-right {
+        border-right: 0.5px solid $gray-text;
+    }
+    
+    .footer-menu-list {
+        font-weight: $font-weight400;
+        margin: 0.5rem 0rem;
+        a {
+            font-size: 0.99rem;
+            text-decoration: none;
+            color: $gray-text;
+            letter-spacing: 0.3px;
+            transition:0.5s all ease;
+            &:hover {
+                color: $white-color;
+            }
+        }
+    }
+
+    .footer-download-text {
+        @extend .footer-heading-text;
+        padding-left: 4rem;
+    }
+
+    .download-number {
+        font-size: 0.99rem;
+        text-decoration: none;
+        color: $gray-text;
+        letter-spacing: 0.3px;
+        padding-left: 4rem;
+    }
+
+    .footer-input {
+        margin: 1rem 0rem;
+        padding-left: 4rem;
+        position: relative;
+        margin-bottom: 1rem;
+        input {
+            position: absolute;
+            width: 80% !important;
+            height: 40px;
+            box-shadow: none !important;
+            border-radius: $border-radius;
+        }
+        span {
+            position: absolute;
+            top: 2px;
+            right: 5.5%;
+            width: 36px;
+            height: 36px;
+            background-color: $primary-color;
+            color: $white-color;
+            font-size: 1rem;
+            @include center-div-flex();
+            border-radius: 50%;
+        }
+    }
+    .download-icon-wrapper {
+        padding-left: 4rem;
+        margin-top: 6rem;
+        img {
+            width: 150px;
+            height: auto;
+        }
+    }
+
+    .qr-code-scanner-wrapper {
+        @include center-div-flex();
+        flex-direction: column;
+        @extend .footer-heading-text;
+        text-align: center;
+    }
+
+    .app-qr-code {
+        width: 160px;
+        height: 160px;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .powered-bt-text, .we-accept-text {
+        @extend .download-number;
+        color: $white-color;
+        padding-left: 0;
+        img {
+            margin-left: 1rem;;
+        }
+    }
+}

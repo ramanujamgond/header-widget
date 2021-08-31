@@ -1,0 +1,46 @@
+// primary Button
+@mixin primary-btn($bgcolor, $hovercolor) {
+    min-width: 160px;
+    color: $white-color;
+    background-color: $bgcolor;
+    position: relative;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: $border-radius;
+    display: inline-block;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    &::before {
+      -webkit-transition: 0.5s all ease;
+      transition: 0.5s all ease;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      right: 50%;
+      bottom: 0;
+      opacity: 0;
+      content: "";
+      background-color: $hovercolor;
+      border-radius: $border-radius;
+      z-index: -1;
+    }
+    &:hover {
+      cursor: pointer;
+      &:before {
+        -webkit-transition: 0.5s all ease;
+        transition: 0.5s all ease;
+        left: 0;
+        right: 0;
+        opacity: 1;
+      }
+    }
+    &:focus {
+      &::before {
+        -webkit-transition: 0.5s all ease;
+        transition: 0.5s all ease;
+        left: 0;
+        right: 0;
+        opacity: 1;
+      }
+    }
+  }
