@@ -63,10 +63,8 @@
 }
 
 .package-wrap {
-    position: absolute;
-    top: 0;
+    @include center-div-position();
     width: $width-full;
-    height: 100%;
     color: $white-color;
     @include center-div-flex();
     flex-direction: column;

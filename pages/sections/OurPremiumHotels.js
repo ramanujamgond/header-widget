@@ -29,7 +29,7 @@ const OurPremiumHotels = () => {
                             </div>
                         </div>
                         <div className="col-md-3 h-320px">
-                            <div className="premium-hotel-img-wrapper">
+                            <div className="premium-hotel-img-wrapper hover-transition">
                                 <Image src={mallapuramHotel} alt="Picture Mamallapuram Hotel Location" />
                                 <div className="hotel-details-wrapper">
                                     <div className="our-hotel-name">Hotel <br />Tamilnadu</div>
@@ -44,7 +44,7 @@ const OurPremiumHotels = () => {
                             </div>
                         </div>
                         <div className="col-md-3 h-320px">
-                            <div className="premium-hotel-img-wrapper">
+                            <div className="premium-hotel-img-wrapper hover-transition">
                                 <Image src={rameshwaramHotel} alt="Picture Rameshwaram Hotel Location" />
                                 <div className="hotel-details-wrapper">
                                     <div className="our-hotel-name">Hotel <br />tamilnadu</div>
@@ -59,7 +59,7 @@ const OurPremiumHotels = () => {
                             </div>
                         </div>
                         <div className="col-md-3 h-320px">
-                            <div className="premium-hotel-img-wrapper">
+                            <div className="premium-hotel-img-wrapper hover-transition">
                                 <Image src={thanjavurHotel} alt="Picture Thanjavur Hotel Location" />
                                 <div className="hotel-details-wrapper">
                                     <div className="our-hotel-name">Hotel <br />tamilnadu</div>
@@ -77,7 +77,7 @@ const OurPremiumHotels = () => {
 
                     <div className="row mt-4">
                         <div className="col-md-3 h-320px">
-                            <div className="premium-hotel-img-wrapper">
+                            <div className="premium-hotel-img-wrapper hover-transition">
                                 <Image src={thirukadaiyurHotel} alt="Picture Thirukadaiyur Hotel Location" />
                                 <div className="hotel-details-wrapper">
                                     <div className="our-hotel-name">Hotel <br />tamilnadu</div>
@@ -92,7 +92,7 @@ const OurPremiumHotels = () => {
                             </div>
                         </div>
                         <div className="col-md-3 h-320px">
-                            <div className="premium-hotel-img-wrapper">
+                            <div className="premium-hotel-img-wrapper hover-transition">
                                 <Image src={maduraiHotel} alt="Picture Madurai Hotel Location" />
                                 <div className="hotel-details-wrapper">
                                     <div className="our-hotel-name">Hotel <br />tamilnadu</div>
@@ -107,7 +107,7 @@ const OurPremiumHotels = () => {
                             </div>
                         </div>
                         <div className="col-md-3 h-320px">
-                            <div className="premium-hotel-img-wrapper">
+                            <div className="premium-hotel-img-wrapper hover-transition">
                                 <Image src={kanyakumariHotel} alt="Picture Kanyakumari Hotel Location" />
                                 <div className="hotel-details-wrapper">
                                     <div className="our-hotel-name">Hotel <br />tamilnadu</div>
@@ -122,7 +122,7 @@ const OurPremiumHotels = () => {
                             </div>
                         </div>
                         <div className="col-md-3 h-320px">
-                            <div className="premium-hotel-img-wrapper">
+                            <div className="premium-hotel-img-wrapper hover-transition">
                                 <Image src={courtallamHotel} alt="Picture Courtallam Hotel Location" />
                                 <div className="hotel-details-wrapper">
                                     <div className="our-hotel-name">Hotel <br />tamilnadu</div>
