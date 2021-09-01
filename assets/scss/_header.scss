@@ -18,9 +18,35 @@
     }
 }
 
-.masthead {
+header {
+    > div {
+        height: 100vh !important;
+    }
+    .masthead {
+        position: absolute;
+        @include background-property();
+        z-index: 0;
+    }
+}
+
+.cloud-pattern {
     position: absolute;
-    height: 100vh;
-    @include background-property();
-    z-index: 0;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 95px;
+    background-image: url('../images/cloud.png');
+    background-repeat: repeat-x;
+    animation: slide 100s linear infinite;
+    -webkit-animation: slide 100s linear infinite;
+}
+
+@keyframes slide {
+    from { background-position: 0 0; }
+      to { background-position: 1920px 0; }
+}
+  
+@-webkit-keyframes slide{
+    from { background-position: 0 0; }
+      to { background-position: 1920px 0; }
 }

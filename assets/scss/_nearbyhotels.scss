@@ -1,0 +1,120 @@
+.nearby-hotel-bg {
+    background-image: url('../images/nearby-hotel-bg.svg');
+    @include background-property();
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.footer-latest-offer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+    background-color: $white-color;
+    border-radius: $border-radius;
+    .image-offer-wraper {
+        position: relative;
+        .offer-cricle-first-image {
+            position: absolute;
+            top: -20%;
+            left: 30%;
+            width: 100px;
+            height: 100px;
+            div:first-child {
+                position: initial !important;
+                div:first-child {
+                    display: inherit !important;
+                }
+                img {
+                    width: 100% !important;
+                    height: auto;
+                    border-radius: 50% !important;
+                    z-index: 1;
+                }
+            }
+        }
+        .offer-cricle-second-image {
+            width: 120px;
+            height: 120px;
+            div:first-child {
+                position: initial !important;
+                div:first-child {
+                    display: inherit !important;
+                }
+                img {
+                    width: 100% !important;
+                    height: auto;
+                    border-radius: 50% !important;
+                    z-index: 2;
+                }
+            }
+        }
+    }
+
+    .offer-text-wrap {
+        padding-left: 2rem;
+        .offer-text-heading {
+            @extend .package-heading-text;
+        }
+    }
+
+    .offer-btn-wrap {
+        .offer-btn {
+            @include primary-btn($primary-color, $primary-hover);
+        }
+    }
+}
+
+.nearby-hotel-text {
+    @extend .package-heading-text;
+}
+
+// Tab custom style
+.react-tabs {
+    .react-tabs__tab-list {
+        margin-bottom: 1.5rem;
+    }
+
+    .react-tabs__tab-list {
+        border-bottom: 1px solid #C3C0C0 !important;
+    }
+
+    .react-tabs__tab {
+        color: $dark-gray;
+        font-size: 1.2rem;
+        font-weight: $font-weight300;
+        padding: 0px !important;
+        padding-left: 1.6rem !important;
+        padding-right: 1.6rem !important;
+        &:focus {
+            box-shadow: unset !important;
+        }
+    }
+    .react-tabs__tab--selected {
+        color: $black-color !important;
+        border-width: 1px !important;
+        border-color: transparent !important;
+        background-color: transparent !important;
+        &::after {
+            content: "";
+            position: relative;
+            display: block;
+            border-bottom: 2.5px solid $black-color;
+            margin-top: 0.2rem
+        }
+    }
+    .tab-items-list {
+        @extend .standard-text;
+        letter-spacing: 0.3px;
+        margin: 0.6rem 0rem;
+        a {
+            text-decoration: none;
+            color: $gray-text;
+            transition:0.5s all ease;
+            font-weight: $font-weight400;
+            &:hover {
+                color: $dark-text;
+            }
+        }
+    }
+}

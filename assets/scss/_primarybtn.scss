@@ -1,6 +1,6 @@
 // primary Button
 @mixin primary-btn($bgcolor, $hovercolor) {
-    min-width: 160px;
+    min-width: 156px;
     color: $white-color;
     background-color: $bgcolor;
     position: relative;
@@ -9,6 +9,8 @@
     border-radius: 6px;
     display: inline-block;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    -webkit-transition: 0.5s all ease;
+      transition: 0.5s all ease;
     z-index: 2;
     &::before {
       -webkit-transition: 0.5s all ease;
@@ -26,6 +28,7 @@
     }
     &:hover {
       cursor: pointer;
+      background-color: $hovercolor;
       &:before {
         -webkit-transition: 0.5s all ease;
         transition: 0.5s all ease;

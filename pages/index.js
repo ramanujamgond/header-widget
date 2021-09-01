@@ -5,6 +5,7 @@ import Header from '../components/Header/Header';
 import OurPremiumHotels from './sections/OurPremiumHotels';
 import HotelPackages from './sections/HotelPackages';
 import Footer from '../components/Footer';
+import NearByHotels from './sections/NearByHotels';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Header />
       <OurPremiumHotels />
       <HotelPackages />
+      <NearByHotels />
       <Footer />
     </>
   )

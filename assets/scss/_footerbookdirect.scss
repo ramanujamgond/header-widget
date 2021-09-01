@@ -15,7 +15,7 @@
     .footer-bookbnow-btn-wrapper {
         @include center-div-flex();
         .footer-book-now-btn {
-            @include primary-btn($primary-color, $primary-hover)
+            @include primary-btn($primary-color, $primary-hover);
         }
     }
 }
