@@ -49,3 +49,10 @@ html, body {
 .default-gray-bg {
     background-color: $default-gray-bg;
 }
+
+.hover-transition {
+    transition: .4s;
+    &:hover {
+        transform: translateY(-8px);
+    }
+}

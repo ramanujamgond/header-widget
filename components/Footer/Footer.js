@@ -18,11 +18,15 @@ import BookingJiniLogo from '../../assets/images/bookingjini-logo-white.svg';
 // import payment icon
 import PaymentIcon from '../../assets/images/payment-icon.svg';
 
+// Bookdirect Section
+import BookDirect from '../../pages/sections/BookDirect';
+
 const Footer = () => {
     return (
         <>
-            <section className="mt-5 pt-5 footer-bg">
-                <div className="container">
+            <section className="pt-5 footer-bg position-relative">
+                <BookDirect />
+                <div className="container mt-3">
                     <div className="row">
                         <div className="col-md-12">Book Us Direct</div>
                     </div>

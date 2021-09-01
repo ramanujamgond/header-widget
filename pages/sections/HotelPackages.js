@@ -23,7 +23,7 @@ import SliderImg3 from '../../assets/images/slider-image-3.jpg';
 const HotelPackages = () => {
     return (
         <>
-            <section className="my-5 py-5 default-gray-bg">
+            <section className="mt-5 py-5 default-gray-bg">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
