@@ -7,9 +7,6 @@ import Yercaud from '../../assets/images/yercaud.png';
 import Pichawaram from '../../assets/images/pichawaram.png';
 import MudumalaiNationalPark from '../../assets/images/mudumalaiNationalPark.png';
 
-// import slider images
-import SliderImg0 from '../../assets/images/slider-image-0.png';
-
 const BoatHouse = () => {
     return (
         <>

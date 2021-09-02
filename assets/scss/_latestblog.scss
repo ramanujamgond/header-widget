@@ -1,0 +1,38 @@
+.latest-blog-heading {
+    @extend .package-heading-text;
+}
+
+@import "_hotelpackages";
+
+.blog-section-wrap {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0%;
+    padding: 1rem;
+    z-index: 2;
+    .blog-section-label {
+        .blog-tab-line {
+            display: inline-block;
+            color: $white-color;
+            background-color: $primary-color;
+            padding: 0.2rem 0.6rem;
+            border-radius: $border-radius4px;
+            text-align: center;
+            &:first-child {
+                margin-right: 1rem;
+            }
+        }
+    }
+    .blog-title {
+        color: $white-color;
+        font-size: 1.5rem;
+        font-weight: $font-weight500;
+    }
+    .blog-time-details {
+        color: $white-color;
+        font-size: $font-size80;
+        font-weight: $font-weight300;
+        letter-spacing: 2px;
+    }
+}

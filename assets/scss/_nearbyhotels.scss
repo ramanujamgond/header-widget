@@ -28,7 +28,7 @@
                 img {
                     width: 100% !important;
                     height: auto;
-                    border-radius: 50% !important;
+                    border-radius: $border-radius50per !important;
                     z-index: 1;
                 }
             }
@@ -44,7 +44,7 @@
                 img {
                     width: 100% !important;
                     height: auto;
-                    border-radius: 50% !important;
+                    border-radius: $border-radius50per !important;
                     z-index: 2;
                 }
             }

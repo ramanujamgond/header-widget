@@ -23,7 +23,7 @@
       opacity: 0;
       content: "";
       background-color: $hovercolor;
-      border-radius: 6px;
+      border-radius: $border-radius6px;
       z-index: -1;
     }
     &:hover {

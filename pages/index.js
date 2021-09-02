@@ -9,6 +9,7 @@ import NearByHotels from './sections/NearByHotels';
 import Testamonial from '../components/Testamonial/Testamonial';
 import BoatHouse from './sections/BoatHouse';
 import LastMinuteOffers from './sections/LastMinuteOffers';
+import LatestBlog from './sections/LatestBlog';
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <HotelPackages />
       <BoatHouse />
       <LastMinuteOffers />
+      <LatestBlog />
       <Testamonial />
       <NearByHotels />
       <Footer />
