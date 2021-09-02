@@ -8,6 +8,7 @@ import Footer from '../components/Footer';
 import NearByHotels from './sections/NearByHotels';
 import Testamonial from '../components/Testamonial/Testamonial';
 import BoatHouse from './sections/BoatHouse';
+import LastMinuteOffers from './sections/LastMinuteOffers';
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <OurPremiumHotels />
       <HotelPackages />
       <BoatHouse />
+      <LastMinuteOffers />
       <Testamonial />
       <NearByHotels />
       <Footer />

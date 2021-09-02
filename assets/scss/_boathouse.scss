@@ -1,3 +1,6 @@
+// import package section
+@import "_hotelpackages";
+
 .boat-house-wrapper {
     position: relative;
     padding: 2rem;
@@ -13,6 +16,3 @@
         z-index: 3;
     }
 }
-
-// import package section
-@import "_hotelpackages";
