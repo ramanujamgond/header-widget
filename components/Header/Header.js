@@ -47,6 +47,15 @@ const Header = () => {
                         </nav>
                     </div>
 
+                    <div className="containetr">
+                        <div className="row">
+                            <div className="col-md-3"></div>
+                            <div className="col-md-3"></div>
+                            <div className="col-md-3"></div>
+                            <div className="col-md-3"></div>
+                        </div>
+                    </div>
+
 
                     <header>
                         <Image src={mastHead} className="masthead" alt="Hero Image" />

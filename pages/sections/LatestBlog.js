@@ -1,11 +1,9 @@
 import Image from 'next/image';
 
 // import package images
-import Kodaikanal from '../../assets/images/kodaikanal.png';
-import Ooty from '../../assets/images/ooty.png';
-import Yercaud from '../../assets/images/yercaud.png';
-import Pichawaram from '../../assets/images/pichawaram.png';
-import MudumalaiNationalPark from '../../assets/images/mudumalaiNationalPark.png';
+import BlogPost1 from '../../assets/images/blog-post1.png';
+import BlogPost2 from '../../assets/images/blog-post2.png';
+import BlogPost3 from '../../assets/images/blog-post3.png';
 
 const LatestBlog = () => {
     return (
@@ -21,7 +19,7 @@ const LatestBlog = () => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="package-carousel">
-                                <Image src={Kodaikanal} alt="Image of a tourist place in coimbatore" />
+                                <Image src={BlogPost1} alt="Image of a tourist place in coimbatore" />
                                 <div className="blog-section-wrap">
                                     <div className="blog-section-label">
                                         <span className="blog-tab-line">Sightseeing</span>
@@ -37,7 +35,7 @@ const LatestBlog = () => {
                             <div className="row">
                                 <div className="col-md-6 h-200">
                                     <div className="packages-images">
-                                        <Image src={Ooty} alt="Hotel image in madurai" />
+                                        <Image src={BlogPost2} alt="Hotel image in madurai" />
                                         <div className="blog-section-wrap">
                                             <div className="blog-section-label">
                                                 <span className="blog-tab-line">Sightseeing</span>
@@ -51,7 +49,7 @@ const LatestBlog = () => {
                                 </div>
                                 <div className="col-md-6 h-200">
                                     <div className="packages-images">
-                                        <Image src={Yercaud} alt="Ooty a queen of hill station" />
+                                        <Image src={BlogPost2} alt="Ooty a queen of hill station" />
                                         <div className="blog-section-wrap">
                                             <div className="blog-section-label">
                                                 <span className="blog-tab-line">Sightseeing</span>
@@ -68,7 +66,7 @@ const LatestBlog = () => {
                             <div className="row mt-4">
                                 <div className="col-md-12 h-200">
                                     <div className="packages-images">
-                                        <Image src={Ooty} alt="Hotel image in madurai" />
+                                        <Image src={BlogPost3} alt="Hotel image in madurai" />
                                         <div className="blog-section-wrap">
                                             <div className="blog-section-label">
                                                 <span className="blog-tab-line">Sightseeing</span>
