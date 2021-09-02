@@ -14,7 +14,7 @@ import Offer4 from '../../assets/images/offer-image4.png';
 const NearByHotels = () => {
     return (
         <>
-            <section className="mt-5 py-5 default-gray-bg nearby-hotel-bg">
+            <section className="py-5 default-gray-bg nearby-hotel-bg">
                 <div className="container">
                     <div className="row my-5">
                         <div className="col-md-6">

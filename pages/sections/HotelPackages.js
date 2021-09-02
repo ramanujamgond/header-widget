@@ -27,6 +27,7 @@ const HotelPackages = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
+                            <div className="standard-cursive-text">Explore the</div>
                             <div className="package-heading-text mb-4">Tamilnadu Tourism Packages</div>
                         </div>
                     </div>

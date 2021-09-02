@@ -6,6 +6,8 @@ import OurPremiumHotels from './sections/OurPremiumHotels';
 import HotelPackages from './sections/HotelPackages';
 import Footer from '../components/Footer';
 import NearByHotels from './sections/NearByHotels';
+import Testamonial from '../components/Testamonial/Testamonial';
+import BoatHouse from './sections/BoatHouse';
 
 const Home = () => {
   return (
@@ -19,6 +21,8 @@ const Home = () => {
       <Header />
       <OurPremiumHotels />
       <HotelPackages />
+      <BoatHouse />
+      <Testamonial />
       <NearByHotels />
       <Footer />
     </>

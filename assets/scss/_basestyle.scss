@@ -34,6 +34,17 @@ html, body {
     font-size: 1rem;
 }
 
+.standard-cursive-text {
+    position: relative;
+    top: 8%;
+    color: $primary-color;
+    font-size: 1.9rem;
+    font-family: $kristi-font;
+    font-weight: $font-weight400;
+    letter-spacing: 2px;
+    z-index: 2;
+}
+
 .image-overlay {
     position: absolute;
     top: 0;

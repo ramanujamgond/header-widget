@@ -1,0 +1,23 @@
+.testamonial-wrapper {
+    display: flex;
+    align-items: center;
+    .testamonial-left-image {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        Image {
+            width: 100%;
+            height: 500px;
+        }
+    }
+    .testamonial-right-container {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        Image {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+        }
+    }
+}
