@@ -18,6 +18,15 @@
     }
 }
 
+.ttdc-overview {
+    position: absolute;
+    background-color: red;
+    bottom: 20%;
+    width: 122px;
+    height: 54px;
+    z-index: 2;
+}
+
 header {
     > div {
         height: 100vh !important;

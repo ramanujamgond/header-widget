@@ -6,6 +6,9 @@ import ttdcLogo from '../../assets/images/logo.png';
 // import masthead image
 import mastHead from '../../assets/images/masthead.png';
 
+// import ttdc property overview icon details
+import PropertryDetails from '../../assets/images/53-plus-hotels.svg';
+
 const Header = () => {
     return (
         <>
@@ -47,14 +50,18 @@ const Header = () => {
                         </nav>
                     </div>
 
-                    <div className="containetr">
+                    {/* <div className="containetr">
                         <div className="row">
-                            <div className="col-md-3"></div>
+                            <div className="col-md-3">
+                                <div className="ttdc-overview">
+                                    <Image src={PropertryDetails} alt="Property detail icon" />
+                                </div>
+                            </div>
                             <div className="col-md-3"></div>
                             <div className="col-md-3"></div>
                             <div className="col-md-3"></div>
                         </div>
-                    </div>
+                    </div> */}
 
 
                     <header>
