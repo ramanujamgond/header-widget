@@ -16,9 +16,9 @@ import { faHeart, faStar } from "@fortawesome/free-solid-svg-icons";
 const OurPremiumHotels = () => {
     return (
         <>
-            <section className="my-5 py-5">
+            <section className="my-5 pb-5">
                 <div className="container">
-                    <div className="row" data-aos-anchor="#trigger-right" data-aos="flip-left" data-aos-delay="50" data-aos-duration="2000" data-aos-easing="ease-in-out-cubic">
+                    <div className="row">
                         <div className="col-md-3 h-320px">
                             <div className="d-flex align-items-center h-100">
                                 <div>
