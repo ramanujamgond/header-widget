@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 // import react tabs
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import { Tab, Tabs, TabList, TabPanel, resetIdCounter } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
 // import offer image
@@ -11,7 +11,9 @@ import Offer2 from '../../assets/images/offer-image2.png';
 import Offer3 from '../../assets/images/offer-image3.png';
 import Offer4 from '../../assets/images/offer-image4.png';
 
+
 const NearByHotels = () => {
+    resetIdCounter();
     return (
         <>
             <section className="py-5 default-gray-bg nearby-hotel-bg">
