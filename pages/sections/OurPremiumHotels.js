@@ -1,13 +1,17 @@
 import Image from 'next/image';
 
 // import property images
-import mallapuramHotel from '../../assets/images/property-image-1.png';
-import rameshwaramHotel from '../../assets/images/property-image-2.png';
-import thanjavurHotel from '../../assets/images/property-image-3.png';
-import thirukadaiyurHotel from '../../assets/images/property-image-4.png';
-import maduraiHotel from '../../assets/images/property-image-5.png';
-import kanyakumariHotel from '../../assets/images/property-image-6.png';
-import courtallamHotel from '../../assets/images/property-image-7.png';
+import thirukadaiyurHotel from '../../assets/images/hotel-thirukadaiyur.png';
+import thiruvannamalaiHotel from '../../assets/images/hotel-thiruvannamalai.png';
+import krishnagiriHotel from '../../assets/images/hotel-krishnagiri.png';
+import hosurHotel from '../../assets/images/hotel-hosur.png';
+import otty1Hotel from '../../assets/images/hotel-ooty-1.png';
+import otty2Hotel from '../../assets/images/hotel-ooty-2.png';
+import madurai1Hotel from '../../assets/images/hotel-madurai-1.png';
+import madurai2Hotel from '../../assets/images/hotel-madurai-2.png';
+import trichyHotel from '../../assets/images/hotel-trichy.png';
+import coimbatoreHotel from '../../assets/images/hotel-coimbatore.png';
+import thanjavurHotel from '../../assets/images/hotel-thanjavur.png';
 
 // import fontawesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -30,10 +34,10 @@ const OurPremiumHotels = () => {
                         </div>
                         <div className="col-md-3 h-320px">
                             <div className="premium-hotel-img-wrapper hover-transition">
-                                <Image src={mallapuramHotel} alt="Picture Mamallapuram Hotel Location" />
+                                <Image src={thirukadaiyurHotel} alt="Picture Thirukadaiyur Hotel Location" />
                                 <div className="hotel-details-wrapper">
                                     <div className="our-hotel-name">Hotel <br />Tamilnadu</div>
-                                    <div className="our-hotel-location">Mamallapuram</div>
+                                    <div className="our-hotel-location">THIRUKADAIYUR</div>
                                     <div className="starting-rom-price-text">Starting Room From ₹ 7640</div>
                                     <div className="star-rating-wrapper">
                                         <div className="star-rating-value"><FontAwesomeIcon className="icon-style" icon={faStar} /> <span>5/5</span></div>
@@ -45,10 +49,10 @@ const OurPremiumHotels = () => {
                         </div>
                         <div className="col-md-3 h-320px">
                             <div className="premium-hotel-img-wrapper hover-transition">
-                                <Image src={rameshwaramHotel} alt="Picture Rameshwaram Hotel Location" />
+                                <Image src={thiruvannamalaiHotel} alt="Picture Thiruvannamalai Hotel Location" />
                                 <div className="hotel-details-wrapper">
-                                    <div className="our-hotel-name">Hotel <br />tamilnadu</div>
-                                    <div className="our-hotel-location">RAMESHWARAM</div>
+                                    <div className="our-hotel-name">Hotel <br />Tamilnadu</div>
+                                    <div className="our-hotel-location">THIRUVANNAMALAI</div>
                                     <div className="starting-rom-price-text">Starting Room From ₹ 7800</div>
                                     <div className="star-rating-wrapper">
                                         <div className="star-rating-value"><FontAwesomeIcon className="icon-style" icon={faStar} /> <span>5/4.5</span></div>
@@ -60,10 +64,10 @@ const OurPremiumHotels = () => {
                         </div>
                         <div className="col-md-3 h-320px">
                             <div className="premium-hotel-img-wrapper hover-transition">
-                                <Image src={thanjavurHotel} alt="Picture Thanjavur Hotel Location" />
+                                <Image src={krishnagiriHotel} alt="Picture Krishnagiri Hotel Location" />
                                 <div className="hotel-details-wrapper">
-                                    <div className="our-hotel-name">Hotel <br />tamilnadu</div>
-                                    <div className="our-hotel-location">THANJAVUR</div>
+                                    <div className="our-hotel-name">Hotel <br />Tamilnadu</div>
+                                    <div className="our-hotel-location">KRISHNAGIRI</div>
                                     <div className="starting-rom-price-text">Starting Room From ₹ 8940</div>
                                     <div className="star-rating-wrapper">
                                         <div className="star-rating-value"><FontAwesomeIcon className="icon-style" icon={faStar} /> <span>5/4.2</span></div>
@@ -78,10 +82,10 @@ const OurPremiumHotels = () => {
                     <div className="row mt-4">
                         <div className="col-md-3 h-320px">
                             <div className="premium-hotel-img-wrapper hover-transition">
-                                <Image src={thirukadaiyurHotel} alt="Picture Thirukadaiyur Hotel Location" />
+                                <Image src={hosurHotel} alt="Picture Hosur Hotel Location" />
                                 <div className="hotel-details-wrapper">
-                                    <div className="our-hotel-name">Hotel <br />tamilnadu</div>
-                                    <div className="our-hotel-location">thirukadaiyur</div>
+                                    <div className="our-hotel-name">Hotel <br />Tamilnadu</div>
+                                    <div className="our-hotel-location">HOSUR</div>
                                     <div className="starting-rom-price-text">Starting Room From ₹ 4560</div>
                                     <div className="star-rating-wrapper">
                                         <div className="star-rating-value"><FontAwesomeIcon className="icon-style" icon={faStar} /> <span>5/4.8</span></div>
@@ -93,10 +97,10 @@ const OurPremiumHotels = () => {
                         </div>
                         <div className="col-md-3 h-320px">
                             <div className="premium-hotel-img-wrapper hover-transition">
-                                <Image src={maduraiHotel} alt="Picture Madurai Hotel Location" />
+                                <Image src={otty1Hotel} alt="Picture Ooty 1 Hotel Location" />
                                 <div className="hotel-details-wrapper">
-                                    <div className="our-hotel-name">Hotel <br />tamilnadu</div>
-                                    <div className="our-hotel-location">MADURAI</div>
+                                    <div className="our-hotel-name">Hotel <br />Tamilnadu</div>
+                                    <div className="our-hotel-location">OOTY-I</div>
                                     <div className="starting-rom-price-text">Starting Room From ₹ 4590</div>
                                     <div className="star-rating-wrapper">
                                         <div className="star-rating-value"><FontAwesomeIcon className="icon-style" icon={faStar} /> <span>5/4.0</span></div>
@@ -108,10 +112,10 @@ const OurPremiumHotels = () => {
                         </div>
                         <div className="col-md-3 h-320px">
                             <div className="premium-hotel-img-wrapper hover-transition">
-                                <Image src={kanyakumariHotel} alt="Picture Kanyakumari Hotel Location" />
+                                <Image src={otty2Hotel} alt="Picture Ooty 2 Hotel Location" />
                                 <div className="hotel-details-wrapper">
-                                    <div className="our-hotel-name">Hotel <br />tamilnadu</div>
-                                    <div className="our-hotel-location">KANYAKUMARI</div>
+                                    <div className="our-hotel-name">Hotel <br />Tamilnadu</div>
+                                    <div className="our-hotel-location">OOTY-II</div>
                                     <div className="starting-rom-price-text">Starting Room From ₹ 8900</div>
                                     <div className="star-rating-wrapper">
                                         <div className="star-rating-value"><FontAwesomeIcon className="icon-style" icon={faStar} /> <span>5/4.6</span></div>
@@ -123,10 +127,73 @@ const OurPremiumHotels = () => {
                         </div>
                         <div className="col-md-3 h-320px">
                             <div className="premium-hotel-img-wrapper hover-transition">
-                                <Image src={courtallamHotel} alt="Picture Courtallam Hotel Location" />
+                                <Image src={madurai1Hotel} alt="Picture Madurai 1 Hotel Location" />
                                 <div className="hotel-details-wrapper">
-                                    <div className="our-hotel-name">Hotel <br />tamilnadu</div>
-                                    <div className="our-hotel-location">Courtallam</div>
+                                    <div className="our-hotel-name">Hotel <br />Tamilnadu</div>
+                                    <div className="our-hotel-location">MADURAI-I</div>
+                                    <div className="starting-rom-price-text">Starting Room From ₹ 6720</div>
+                                    <div className="star-rating-wrapper">
+                                        <div className="star-rating-value"><FontAwesomeIcon className="icon-style" icon={faStar} /> <span>5/4.7</span></div>
+                                        <div className="star-rating-likes"><FontAwesomeIcon className="icon-style" icon={faHeart} /><span>100K</span></div>
+                                    </div>
+                                </div>
+                                <div className="image-overlay"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="row mt-4">
+                        <div className="col-md-3 h-320px">
+                            <div className="premium-hotel-img-wrapper hover-transition">
+                                <Image src={madurai2Hotel} alt="Picture Madurai 2 Hotel Location" />
+                                <div className="hotel-details-wrapper">
+                                    <div className="our-hotel-name">Hotel <br />Tamilnadu</div>
+                                    <div className="our-hotel-location">MADURAI-II</div>
+                                    <div className="starting-rom-price-text">Starting Room From ₹ 4560</div>
+                                    <div className="star-rating-wrapper">
+                                        <div className="star-rating-value"><FontAwesomeIcon className="icon-style" icon={faStar} /> <span>5/4.8</span></div>
+                                        <div className="star-rating-likes"><FontAwesomeIcon className="icon-style" icon={faHeart} /><span>79K</span></div>
+                                    </div>
+                                </div>
+                                <div className="image-overlay"></div>
+                            </div>
+                        </div>
+                        <div className="col-md-3 h-320px">
+                            <div className="premium-hotel-img-wrapper hover-transition">
+                                <Image src={trichyHotel} alt="Picture Trichy Hotel Location" />
+                                <div className="hotel-details-wrapper">
+                                    <div className="our-hotel-name">Hotel <br />Tamilnadu</div>
+                                    <div className="our-hotel-location">TRICHY</div>
+                                    <div className="starting-rom-price-text">Starting Room From ₹ 4590</div>
+                                    <div className="star-rating-wrapper">
+                                        <div className="star-rating-value"><FontAwesomeIcon className="icon-style" icon={faStar} /> <span>5/4.0</span></div>
+                                        <div className="star-rating-likes"><FontAwesomeIcon className="icon-style" icon={faHeart} /><span>63K</span></div>
+                                    </div>
+                                </div>
+                                <div className="image-overlay"></div>
+                            </div>
+                        </div>
+                        <div className="col-md-3 h-320px">
+                            <div className="premium-hotel-img-wrapper hover-transition">
+                                <Image src={coimbatoreHotel} alt="Picture Coimbatore Hotel Location" />
+                                <div className="hotel-details-wrapper">
+                                    <div className="our-hotel-name">Hotel <br />Tamilnadu</div>
+                                    <div className="our-hotel-location">COIMBATORE</div>
+                                    <div className="starting-rom-price-text">Starting Room From ₹ 8900</div>
+                                    <div className="star-rating-wrapper">
+                                        <div className="star-rating-value"><FontAwesomeIcon className="icon-style" icon={faStar} /> <span>5/4.6</span></div>
+                                        <div className="star-rating-likes"><FontAwesomeIcon className="icon-style" icon={faHeart} /><span>50K</span></div>
+                                    </div>
+                                </div>
+                                <div className="image-overlay"></div>
+                            </div>
+                        </div>
+                        <div className="col-md-3 h-320px">
+                            <div className="premium-hotel-img-wrapper hover-transition">
+                                <Image src={thanjavurHotel} alt="Picture Thanjavur Hotel Location" />
+                                <div className="hotel-details-wrapper">
+                                    <div className="our-hotel-name">Hotel <br />Tamilnadu</div>
+                                    <div className="our-hotel-location">THANJAVUR</div>
                                     <div className="starting-rom-price-text">Starting Room From ₹ 6720</div>
                                     <div className="star-rating-wrapper">
                                         <div className="star-rating-value"><FontAwesomeIcon className="icon-style" icon={faStar} /> <span>5/4.7</span></div>
