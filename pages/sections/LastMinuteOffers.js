@@ -8,12 +8,12 @@ import YercaudForest from '../../assets/images/yercaudforest.png';
 const LastMinuteOffers = () => {
     return (
         <>
-            <section className="mb-5 pb-5">
+            <section className="my-5 pb-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
                             <div className="last-minute-offer-heading">Last Minute Offers</div>
-                            <div className="standard-text mb-4">Book a memorable tour at great price! Grab our last minute offer and pack the things for the journey you dream about. See our recommendations.</div>
+                            <div className="standard-text mb-4 mt-2">Book a memorable tour at great price! Grab our last minute offer and pack the things for the journey you dream about. See our recommendations.</div>
                         </div>
                     </div>
 
