@@ -13,7 +13,7 @@ import userImage from '../../assets/images/userImage.jpg';
 const Testamonial = () => {
     return (
         <>
-            <section>
+            <section className="mb-5 pb-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
