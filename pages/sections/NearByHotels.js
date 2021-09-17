@@ -7,6 +7,9 @@ import 'react-tabs/style/react-tabs.css';
 // import LiveTourPackage
 import LiveTourPackage from './LiveTourPackage';
 
+// import live social media feed
+import SocialMediaFeeds from './SocialMediaFeeds';
+
 const NearByHotels = () => {
     resetIdCounter();
     return (
@@ -62,7 +65,9 @@ const NearByHotels = () => {
 
                     <LiveTourPackage />
 
-                    <div className="row">
+                    <SocialMediaFeeds />
+
+                    <div className="row mt-5">
                         <div className="col-md-12">
                             <div className="nearby-hotel-text mb-4">Nearby Hotels</div>
                         </div>
