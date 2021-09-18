@@ -28,6 +28,10 @@
         > div {
             display: none !important;
         }
+        img {
+            border-radius: $border-radius;
+            object-fit: cover;
+        }
     }
     Image {
         width: 100%;

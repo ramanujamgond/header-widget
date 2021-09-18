@@ -1,22 +1,23 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 // import react tabs
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import { Tab, Tabs, TabList, TabPanel, resetIdCounter } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
-// import offer image
-import Offer1 from '../../assets/images/offer-image1.png';
-import Offer2 from '../../assets/images/offer-image2.png';
-import Offer3 from '../../assets/images/offer-image3.png';
-import Offer4 from '../../assets/images/offer-image4.png';
+// import LiveTourPackage
+import LiveTourPackage from './LiveTourPackage';
+
+// import live social media feed
+import SocialMediaFeeds from './SocialMediaFeeds';
 
 const NearByHotels = () => {
+    resetIdCounter();
     return (
         <>
             <section className="py-5 default-gray-bg nearby-hotel-bg">
                 <div className="container">
-                    <div className="row my-5">
+                    {/* Disable the latest offer section */}
+                    {/* <div className="row my-5">
                         <div className="col-md-6">
                             <div className="footer-latest-offer">
                                 <div className="image-offer-wraper">
@@ -60,9 +61,13 @@ const NearByHotels = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
-                    <div className="row">
+                    <LiveTourPackage />
+
+                    <SocialMediaFeeds />
+
+                    <div className="row mt-5">
                         <div className="col-md-12">
                             <div className="nearby-hotel-text mb-4">Nearby Hotels</div>
                         </div>

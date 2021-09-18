@@ -18,8 +18,17 @@
     }
 }
 
+.ttdc-overview {
+    position: absolute;
+    bottom: 12%;
+    width: 150px;
+    height: 78px;
+    z-index: 2;
+}
+
 header {
-    > div {
+    position: relative;
+    > div:first-child {
         height: 100vh !important;
     }
     .masthead {

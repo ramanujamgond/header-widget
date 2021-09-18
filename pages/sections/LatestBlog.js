@@ -8,7 +8,7 @@ import BlogPost3 from '../../assets/images/blog-post3.png';
 const LatestBlog = () => {
     return (
         <>
-            <section className="mb-5 pb-5">
+            <section className="mb-4 pb-4">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
@@ -78,6 +78,42 @@ const LatestBlog = () => {
                                         <div className="image-overlay"></div>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="row my-5">
+                        <div className="col">
+                            <div className="latest-blog-heading w-200">Blogs Topics</div>
+                        </div>
+                        <div className="col">
+                            <div className="blog-topic-wrapper">
+                                <span className="blog-topic-text">Sightseeing</span>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="blog-topic-wrapper">
+                                <span className="blog-topic-text">Things to do</span>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="blog-topic-wrapper">
+                                <span className="blog-topic-text">Places</span>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="blog-topic-wrapper">
+                                <span className="blog-topic-text">Activities</span>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="blog-topic-wrapper">
+                                <span className="blog-topic-text">Hotels</span>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="blog-topic-wrapper">
+                                <span className="blog-topic-text">Beaches</span>
                             </div>
                         </div>
                     </div>

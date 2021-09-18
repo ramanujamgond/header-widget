@@ -10,6 +10,7 @@ import Testamonial from '../components/Testamonial/Testamonial';
 import BoatHouse from './sections/BoatHouse';
 import LastMinuteOffers from './sections/LastMinuteOffers';
 import LatestBlog from './sections/LatestBlog';
+import TelescopeHouse from './sections/TelescopeHouse';
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <OurPremiumHotels />
       <HotelPackages />
       <BoatHouse />
+      |<TelescopeHouse />
       <LastMinuteOffers />
       <LatestBlog />
       <Testamonial />
