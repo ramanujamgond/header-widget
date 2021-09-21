@@ -11,13 +11,15 @@ import PropertryDetails from '../../assets/images/53-plus-hotels.svg';
 import Location100Plus from '../../assets/images/100-locations.svg';
 import BestPriceGurantee from '../../assets/images/best-guarantee.svg';
 import Travelers74Mn from '../../assets/images/74mn-travelers.svg';
+import TopHeader from './TopHeader';
 
 const Header = () => {
     return (
         <>
             <section className="position-relative">
                 <div className="header-glass-wrapper">
-                    <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-transparent">
+                    <TopHeader />
+                    <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-transparent margin-top">
                         <div className="container">
                             <a className="navbar-brand" href="#">
                                 <Image src={ttdcLogo} alt="Picture of the author" height="65" />

@@ -1,0 +1,29 @@
+// style of top header
+.font-size-90 {
+    font-size: $font-size90;
+}
+
+.top-header-wrapper {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    width: 1260px;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: $font-size90;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    border-bottom: 0.1px solid rgba(255, 255, 255, 0.6);
+    .top-header-contact-info {
+        color: $white-color;
+        font-weight: $font-weight300;
+        letter-spacing: 1px;
+        margin-right: 0.9rem;
+        .top-header-icon {
+            width: 16px;
+            color: $white-color;
+            margin-right: 0.2rem;
+        }
+    }
+}
