@@ -35,7 +35,7 @@ const OurPremiumHotels = () => {
                                     <div className="our-hotel-location">THIRUKADAIYUR</div>
                                     <div className="starting-rom-price-text">Starting Room From ₹ 7640</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
                         <div className="col-md-3 h-320px">
@@ -45,7 +45,7 @@ const OurPremiumHotels = () => {
                                     <div className="our-hotel-location">THIRUVANNAMALAI</div>
                                     <div className="starting-rom-price-text">Starting Room From ₹ 7800</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
                         <div className="col-md-3 h-320px">
@@ -55,7 +55,7 @@ const OurPremiumHotels = () => {
                                     <div className="our-hotel-location">KRISHNAGIRI</div>
                                     <div className="starting-rom-price-text">Starting Room From ₹ 8940</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ const OurPremiumHotels = () => {
                                     <div className="our-hotel-location">HOSUR</div>
                                     <div className="starting-rom-price-text">Starting Room From ₹ 4560</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
                         <div className="col-md-3 h-320px">
@@ -78,7 +78,7 @@ const OurPremiumHotels = () => {
                                     <div className="our-hotel-location">OOTY-I</div>
                                     <div className="starting-rom-price-text">Starting Room From ₹ 4590</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
                         <div className="col-md-3 h-320px">
@@ -88,7 +88,7 @@ const OurPremiumHotels = () => {
                                     <div className="our-hotel-location">OOTY-II</div>
                                     <div className="starting-rom-price-text">Starting Room From ₹ 8900</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
                         <div className="col-md-3 h-320px">
@@ -98,7 +98,7 @@ const OurPremiumHotels = () => {
                                     <div className="our-hotel-location">MADURAI-I</div>
                                     <div className="starting-rom-price-text">Starting Room From ₹ 6720</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
                     </div>
@@ -111,7 +111,7 @@ const OurPremiumHotels = () => {
                                     <div className="our-hotel-location">MADURAI-II</div>
                                     <div className="starting-rom-price-text">Starting Room From ₹ 4560</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
                         <div className="col-md-3 h-320px">
@@ -121,7 +121,7 @@ const OurPremiumHotels = () => {
                                     <div className="our-hotel-location">TRICHY</div>
                                     <div className="starting-rom-price-text">Starting Room From ₹ 4590</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
                         <div className="col-md-3 h-320px">
@@ -131,7 +131,7 @@ const OurPremiumHotels = () => {
                                     <div className="our-hotel-location">COIMBATORE</div>
                                     <div className="starting-rom-price-text">Starting Room From ₹ 8900</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
                         <div className="col-md-3 h-320px">
@@ -141,7 +141,7 @@ const OurPremiumHotels = () => {
                                     <div className="our-hotel-location">THANJAVUR</div>
                                     <div className="starting-rom-price-text">Starting Room From ₹ 6720</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
                     </div>
