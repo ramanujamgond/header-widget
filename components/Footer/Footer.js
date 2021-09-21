@@ -4,6 +4,7 @@ import Link from 'next/link'
 // import fontawesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faFacebookSquare, faInstagramSquare, faTwitterSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 // import app and play store icon
 import PlayStore from '../../assets/images/play-store.svg';
@@ -146,7 +147,28 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="row mt-4 pt-4 pb-2">
+                    <div className="row mt-4">
+                        <div className="col-md-6">
+                            <div className="tamilnadu-social-wrapper">
+                                <div className="tamilnadu-social-text">Tamil Nadu Tourism</div>
+                                <span><FontAwesomeIcon className="tamilnadu-social-icon facebook-icon" icon={faFacebookSquare} /></span>
+                                <span><FontAwesomeIcon className="tamilnadu-social-icon twitter-icon" icon={faTwitterSquare} /></span>
+                                <span><FontAwesomeIcon className="tamilnadu-social-icon instagram-icon" icon={faInstagramSquare} /></span>
+                                <span><FontAwesomeIcon className="tamilnadu-social-icon linkedin-icon" icon={faLinkedin} /></span>
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <div className="ttdc-social-wrapper">
+                                <div className="ttdc-social-text">TTDC</div>
+                                <span><FontAwesomeIcon className="ttdc-social-icon facebook-icon" icon={faFacebookSquare} /></span>
+                                <span><FontAwesomeIcon className="ttdc-social-icon twitter-icon" icon={faTwitterSquare} /></span>
+                                <span><FontAwesomeIcon className="ttdc-social-icon instagram-icon" icon={faInstagramSquare} /></span>
+                                <span><FontAwesomeIcon className="ttdc-social-icon linkedin-icon" icon={faLinkedin} /></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="row mt-2 pt-4 pb-2">
                         <div className="col-md-12">
                             <div className="footer-horizontal"></div>
                         </div>
