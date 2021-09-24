@@ -1,9 +1,5 @@
 import Image from 'next/image';
 
-// import react responsive slider
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
-
 // import package images
 import MaduraiPackage from '../../assets/images/madurai-package.png';
 import OotyPackage from '../../assets/images/ooty-package.png';
@@ -15,10 +11,7 @@ import RameshwaramPackage from '../../assets/images/rameshwaram-package.png';
 import ThirukadaiyurPackage from '../../assets/images/thirukadaiyur-package.png';
 
 // import slider images
-import SliderImg0 from '../../assets/images/slider-image-0.png';
-import SliderImg1 from '../../assets/images/slider-image-1.jpg';
-import SliderImg2 from '../../assets/images/slider-image-2.png';
-import SliderImg3 from '../../assets/images/slider-image-3.jpg';
+import TirumalaTirupati from '../../assets/images/tirumala_tirupati.png';
 
 const HotelPackages = () => {
     return (
@@ -34,40 +27,14 @@ const HotelPackages = () => {
 
                     <div className="row">
                         <div className="col-md-6">
-                            <Carousel autoPlay={true} showArrows={false} showThumbs={false} showStatus={false}>
-                                <div className="package-carousel">
-                                    <Image src={SliderImg0} alt="Image of a tourist place in coimbatore" />
-                                    <div className="package-slider-wrap">
-                                        <div className="package-slider-text">COIMBATORE</div>
-                                        <div className="package-slider-detail">Starting Room From ₹ 5200</div>
-                                    </div>
-                                    <div className="image-overlay"></div>
+                            <div className="package-carousel">
+                                <Image src={TirumalaTirupati} alt="Image of a tirumala tirupati" />
+                                <div className="package-slider-wrap">
+                                    <div className="package-slider-text">TIRUMALA TIRUPATI</div>
+                                    <div className="package-slider-detail">Starting Room From ₹ 5200</div>
                                 </div>
-                                <div className="package-carousel">
-                                    <Image src={SliderImg1} alt="Image of a tourist place in courtallam" />
-                                    <div className="package-slider-wrap">
-                                        <div className="package-slider-text">COURTALLAM</div>
-                                        <div className="package-slider-detail">Starting Room From ₹ 5200</div>
-                                    </div>
-                                    <div className="image-overlay"></div>
-                                </div>
-                                <div className="package-carousel">
-                                    <Image src={SliderImg2} alt="Image of a tourist place in trichy" />
-                                    <div className="package-slider-wrap">
-                                        <div className="package-slider-text">TRICHY</div>
-                                        <div className="package-slider-detail">Starting Room From ₹ 5200</div>
-                                    </div>
-                                    <div className="image-overlay"></div>
-                                </div>
-                                <div className="package-carousel">
-                                    <Image src={SliderImg3} alt="Image of a tourist place in yercaud" />
-                                    <div className="package-slider-wrap">
-                                        <div className="package-slider-text">YERCAUD</div>
-                                        <div className="package-slider-detail">Starting Room From ₹ 5200</div>
-                                    </div>
-                                    <div className="image-overlay"></div>
-                                </div>
-                            </Carousel>
+                                <div className="image-gradient-bottom"></div>
+                            </div>
                         </div>
                         <div className="col-md-6">
                             <div className="row">
@@ -78,7 +45,7 @@ const HotelPackages = () => {
                                             <div className="package-name-text">MADURAI</div>
                                             <div className="package-detail-text">Starting Room From ₹ 5200</div>
                                         </div>
-                                        <div className="image-overlay"></div>
+                                        <div className="image-gradient-bottom"></div>
                                     </div>
                                 </div>
                                 <div className="col-md-6 h-200">
@@ -88,7 +55,7 @@ const HotelPackages = () => {
                                             <div className="package-name-text">OOTY-QUEEN OF HILL STATIONS</div>
                                             <div className="package-detail-text">Starting Room From ₹ 5200</div>
                                         </div>
-                                        <div className="image-overlay"></div>
+                                        <div className="image-gradient-bottom"></div>
                                     </div>
                                 </div>
                             </div>
@@ -101,7 +68,7 @@ const HotelPackages = () => {
                                             <div className="package-name-text">THANJAVUR</div>
                                             <div className="package-detail-text">Starting Room From ₹ 5200</div>
                                         </div>
-                                        <div className="image-overlay"></div>
+                                        <div className="image-gradient-bottom"></div>
                                     </div>
                                 </div>
                                 <div className="col-md-6 h-200">
@@ -111,7 +78,7 @@ const HotelPackages = () => {
                                             <div className="package-name-text">MUDUMALAI<br /> NATIONAL PARK</div>
                                             <div className="package-detail-text">Starting Room From ₹ 5200</div>
                                         </div>
-                                        <div className="image-overlay"></div>
+                                        <div className="image-gradient-bottom"></div>
                                     </div>
                                 </div>
                             </div>
@@ -126,7 +93,7 @@ const HotelPackages = () => {
                                     <div className="package-name-text">KANYAKUMARI</div>
                                     <div className="package-detail-text">Starting Room From ₹ 5200</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
 
@@ -137,7 +104,7 @@ const HotelPackages = () => {
                                     <div className="package-name-text">MAHABALIPURAM</div>
                                     <div className="package-detail-text">Starting Room From ₹ 5200</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
 
@@ -148,7 +115,7 @@ const HotelPackages = () => {
                                     <div className="package-name-text">RAMESHWARAM</div>
                                     <div className="package-detail-text">Starting Room From ₹ 5200</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
 
@@ -159,7 +126,7 @@ const HotelPackages = () => {
                                     <div className="package-name-text">THIRUKADAIYUR</div>
                                     <div className="package-detail-text">Starting Room From ₹ 5200</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
                     </div>

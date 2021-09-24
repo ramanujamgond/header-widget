@@ -1,6 +1,5 @@
 .live-tour-package-wrapper {
-    @include center-div-flex();
-    width: 100%;
+    width: $width-full;
     min-height: 230px;
     border-radius: $border-radius;
     div:first-child {
@@ -21,20 +20,21 @@
     }
 
     .live-offer-text-wrapper {
+        position: absolute;
+        bottom: 0%;
+        padding: 1rem;
         color: $white-color;
         z-index: 1;
         .live-tour-text {
             text-transform: uppercase;
             font-size: 1.5rem;
             font-weight: $font-weight500;
-            text-align: center;
         }
     
         .live-tour-price-text {
             font-size: 80%;
             letter-spacing: 2px;
             font-weight: $font-weight300;
-            text-align: center;
         }
     }
 }

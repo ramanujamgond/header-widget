@@ -17,7 +17,7 @@ const LiveTourPackage = () => {
                             <div className="live-tour-text">TIRUPATHI</div>
                             <div className="live-tour-price-text">Starting Room From ₹ 5200</div>
                         </div>
-                        <div className="image-overlay"></div>
+                        <div className="image-gradient-bottom"></div>
                     </div>
                 </div>
                 <div className="col-md-4">
@@ -27,7 +27,7 @@ const LiveTourPackage = () => {
                             <div className="live-tour-text">OOTY</div>
                             <div className="live-tour-price-text">Starting Room From ₹ 5200</div>
                         </div>
-                        <div className="image-overlay"></div>
+                        <div className="image-gradient-bottom"></div>
                     </div>
                 </div>
                 <div className="col-md-4">
@@ -37,7 +37,7 @@ const LiveTourPackage = () => {
                             <div className="live-tour-text">KODAIKANAL</div>
                             <div className="live-tour-price-text">Starting Room From ₹ 5200</div>
                         </div>
-                        <div className="image-overlay"></div>
+                        <div className="image-gradient-bottom"></div>
                     </div>
                 </div>
             </div>

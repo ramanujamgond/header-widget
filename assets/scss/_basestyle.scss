@@ -8,6 +8,37 @@
     box-sizing: border-box;
 }
 
+// override default selection color
+::-moz-selection {
+    color: $dark-text;
+    background-color: $primary-color; 
+}
+
+::selection { 
+    color: $dark-text;
+    background-color: $primary-color; 
+}
+
+// reset bootstrap input style
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+select,
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+    border-color: $primary-color;
+}
+
 html, body {
     height: 100%;
     font-family: $cabin-font;

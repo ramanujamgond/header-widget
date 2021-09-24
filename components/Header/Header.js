@@ -13,6 +13,9 @@ import BestPriceGurantee from '../../assets/images/best-guarantee.svg';
 import Travelers74Mn from '../../assets/images/74mn-travelers.svg';
 import TopHeader from './TopHeader';
 
+// import widget
+import Widget from '../Widget/Widget';
+
 const Header = () => {
     return (
         <>
@@ -56,6 +59,14 @@ const Header = () => {
 
                 <header>
                     <Image src={mastHead} className="masthead" alt="Hero Image" />
+                    <div className="widget-select-wrapper">
+                        <div className="widget-heading-wrapper">
+                            <div className="standard-cursive-text">Explore the</div>
+                            <div className="widget-heading">Unexplored</div>
+                        </div>
+
+                        <Widget />
+                    </div>
                     <div className="container">
                         <div className="row">
                             <div className="col-md-3 d-flex justify-content-center">

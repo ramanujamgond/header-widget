@@ -106,6 +106,79 @@
         }
     }
 
+    .tamilnadu-social-wrapper {
+        @include center-div-flex();
+        justify-content: left;
+        .tamilnadu-social-text {
+            color:  $white-color;
+            font-size: $font-size95;
+            font-weight: $font-weight300;
+            letter-spacing: 1px;
+        }
+        span {
+            margin: 0px 0.8rem;
+            .tamilnadu-social-icon {
+                width: 18px;
+                color: $white-color;
+                transition:0.5s all ease;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .ttdc-social-wrapper {
+        @include center-div-flex();
+        justify-content: right;
+        .ttdc-social-text {
+            color:  $white-color;
+            font-size: $font-size95;
+            font-weight: $font-weight300;
+            letter-spacing: 1px;
+        }
+        span {
+            margin: 0px 0.8rem;
+            .ttdc-social-icon {
+                width: 18px;
+                color: $white-color;
+                transition:0.5s all ease;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .tamilnadu-social-wrapper, .ttdc-social-wrapper {
+        span {
+            .facebook-icon {
+                &:hover {
+                    color: #4267B2;
+                }
+            }
+
+            .twitter-icon {
+                &:hover {
+                    color: #1DA1F2;
+                }
+            }
+
+            .instagram-icon {
+                &:hover {
+                    color: #c13584;
+                }
+            }
+
+            .linkedin-icon {
+                &:hover {
+                    color: #2867B2;
+                }
+            }
+        }
+
+    } 
+
     .footer-horizontal {
         border-bottom: 0.5px solid $gray-text;
     }
