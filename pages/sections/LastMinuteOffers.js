@@ -25,7 +25,7 @@ const LastMinuteOffers = () => {
                                     <div className="package-name-text">THANJAVUR <br /> HOTELS</div>
                                     <div className="package-detail-text">Starting Room From ₹ 5200</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
 
@@ -36,7 +36,7 @@ const LastMinuteOffers = () => {
                                     <div className="package-name-text">KODAIKANAL <br /> BOATS</div>
                                     <div className="package-detail-text">Starting Room From ₹ 2200</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
 
@@ -47,7 +47,7 @@ const LastMinuteOffers = () => {
                                     <div className="package-name-text">MAHABALIPURAM <br /> TEMPLES</div>
                                     <div className="package-detail-text">Starting Room From ₹ 3620</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
 
@@ -58,7 +58,7 @@ const LastMinuteOffers = () => {
                                     <div className="package-name-text">YERCAUD <br /> FOREST</div>
                                     <div className="package-detail-text">Starting Room From ₹ 4345</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
                     </div>

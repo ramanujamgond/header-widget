@@ -17,7 +17,7 @@ const BoatHouse = () => {
                             <div className="boat-house-wrapper">
                                 <div className="standard-cursive-text">Tamilnadu Tourism</div>
                                 <div className="boat-house-heading-text mb-4">Boat House</div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
                     </div>
@@ -30,7 +30,7 @@ const BoatHouse = () => {
                                     <div className="package-slider-text">Kodaikanal</div>
                                     <div className="package-slider-detail">Starting Room From ₹ 5200</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -42,7 +42,7 @@ const BoatHouse = () => {
                                             <div className="package-name-text">OOTY <br /> BOAT HOUSE</div>
                                             <div className="package-detail-text">Starting Room From ₹ 5200</div>
                                         </div>
-                                        <div className="image-overlay"></div>
+                                        <div className="image-gradient-bottom"></div>
                                     </div>
                                 </div>
                                 <div className="col-md-6 h-200">
@@ -52,7 +52,7 @@ const BoatHouse = () => {
                                             <div className="package-name-text">KODAIKANNAL <br /> BOAT HOUSE</div>
                                             <div className="package-detail-text">Starting Room From ₹ 5200</div>
                                         </div>
-                                        <div className="image-overlay"></div>
+                                        <div className="image-gradient-bottom"></div>
                                     </div>
                                 </div>
                             </div>
@@ -65,7 +65,7 @@ const BoatHouse = () => {
                                             <div className="package-name-text">MUTTUKADU <br /> BOAT HOUSE</div>
                                             <div className="package-detail-text">Starting Room From ₹ 5200</div>
                                         </div>
-                                        <div className="image-overlay"></div>
+                                        <div className="image-gradient-bottom"></div>
                                     </div>
                                 </div>
                                 <div className="col-md-6 h-200">
@@ -75,7 +75,7 @@ const BoatHouse = () => {
                                             <div className="package-name-text">OOTY <br /> BOAT HOUSE</div>
                                             <div className="package-detail-text">Starting Room From ₹ 5200</div>
                                         </div>
-                                        <div className="image-overlay"></div>
+                                        <div className="image-gradient-bottom"></div>
                                     </div>
                                 </div>
                             </div>

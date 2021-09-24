@@ -24,7 +24,7 @@ const LatestBlog = () => {
                                     <div className="blog-title mt-2">Beauty of Kodaikanal, Divine Place</div>
                                     <div className="blog-time-details">24 Aug 2013 | 4 mins read</div>
                                 </div>
-                                <div className="image-overlay"></div>
+                                <div className="image-gradient-bottom"></div>
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -36,7 +36,7 @@ const LatestBlog = () => {
                                             <div className="blog-title mt-2">Beauty of Kodaikanal, Divine Place</div>
                                             <div className="blog-time-details">24 Aug 2013 | 4 mins read</div>
                                         </div>
-                                        <div className="image-overlay"></div>
+                                        <div className="image-gradient-bottom"></div>
                                     </div>
                                 </div>
                                 <div className="col-md-6 h-200">
@@ -46,7 +46,7 @@ const LatestBlog = () => {
                                             <div className="blog-title mt-2">Beauty of Kodaikanal, Divine Place</div>
                                             <div className="blog-time-details">24 Aug 2013 | 4 mins read</div>
                                         </div>
-                                        <div className="image-overlay"></div>
+                                        <div className="image-gradient-bottom"></div>
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +59,7 @@ const LatestBlog = () => {
                                             <div className="blog-title mt-2">Beauty of Kodaikanal, Divine Place</div>
                                             <div className="blog-time-details">24 Aug 2013 | 4 mins read</div>
                                         </div>
-                                        <div className="image-overlay"></div>
+                                        <div className="image-gradient-bottom"></div>
                                     </div>
                                 </div>
                             </div>

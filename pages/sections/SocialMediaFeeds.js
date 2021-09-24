@@ -34,7 +34,6 @@ const SocialMediaFeeds = () => {
                                     </div>
                                     <div className="social-media-image">
                                         <Image src={SliderImg2} alt="" />
-                                        <div className="image-overlay"></div>
                                     </div>
                                     <div className="social-media-fb-wrapper mt-3">
                                         <span>View on Facebook</span>
@@ -53,7 +52,6 @@ const SocialMediaFeeds = () => {
                                     </div>
                                     <div className="social-media-image">
                                         <Image src={SliderImg2} alt="" />
-                                        <div className="image-overlay"></div>
                                     </div>
                                     <div className="social-media-fb-wrapper mt-3">
                                         <span>View on Facebook</span>
@@ -72,7 +70,6 @@ const SocialMediaFeeds = () => {
                                     </div>
                                     <div className="social-media-image">
                                         <Image src={SliderImg2} alt="" />
-                                        <div className="image-overlay"></div>
                                     </div>
                                     <div className="social-media-fb-wrapper mt-3">
                                         <span>View on Facebook</span>
@@ -91,7 +88,6 @@ const SocialMediaFeeds = () => {
                                     </div>
                                     <div className="social-media-image">
                                         <Image src={SliderImg2} alt="" />
-                                        <div className="image-overlay"></div>
                                     </div>
                                     <div className="social-media-fb-wrapper mt-3">
                                         <span>View on Facebook</span>
@@ -113,7 +109,6 @@ const SocialMediaFeeds = () => {
                                     </div>
                                     <div className="social-media-image">
                                         <Image src={SliderImg2} alt="" />
-                                        <div className="image-overlay"></div>
                                     </div>
                                     <div className="social-media-fb-wrapper mt-3">
                                         <span>View on Facebook</span>
@@ -132,7 +127,6 @@ const SocialMediaFeeds = () => {
                                     </div>
                                     <div className="social-media-image">
                                         <Image src={SliderImg2} alt="" />
-                                        <div className="image-overlay"></div>
                                     </div>
                                     <div className="social-media-fb-wrapper mt-3">
                                         <span>View on Facebook</span>
@@ -151,7 +145,6 @@ const SocialMediaFeeds = () => {
                                     </div>
                                     <div className="social-media-image">
                                         <Image src={SliderImg2} alt="" />
-                                        <div className="image-overlay"></div>
                                     </div>
                                     <div className="social-media-fb-wrapper mt-3">
                                         <span>View on Facebook</span>
@@ -170,7 +163,6 @@ const SocialMediaFeeds = () => {
                                     </div>
                                     <div className="social-media-image">
                                         <Image src={SliderImg2} alt="" />
-                                        <div className="image-overlay"></div>
                                     </div>
                                     <div className="social-media-fb-wrapper mt-3">
                                         <span>View on Facebook</span>

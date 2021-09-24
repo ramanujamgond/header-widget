@@ -16,53 +16,6 @@ const NearByHotels = () => {
         <>
             <section className="py-5 default-gray-bg nearby-hotel-bg">
                 <div className="container">
-                    {/* Disable the latest offer section */}
-                    {/* <div className="row my-5">
-                        <div className="col-md-6">
-                            <div className="footer-latest-offer">
-                                <div className="image-offer-wraper">
-                                    <div className="offer-cricle-first-image">
-                                        <Image src={Offer1} alt="Hotel Offer Image" />
-                                    </div>
-                                    <div className="offer-cricle-second-image">
-                                        <Image src={Offer2} alt="Hotel Offer Image" />
-                                    </div>
-                                </div>
-
-                                <div className="offer-text-wrap">
-                                    <div className="offer-text-heading">Latest Offer</div>
-                                    <div className="standard-text">Lorem Ipsum is simply dummy text of the printing </div>
-                                </div>
-
-                                <div className="offer-btn-wrap">
-                                    <div className="offer-btn">Book Now</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-md-6">
-                            <div className="footer-latest-offer">
-                                <div className="image-offer-wraper">
-                                    <div className="offer-cricle-first-image">
-                                        <Image src={Offer3} alt="Hotel Offer Image" />
-                                    </div>
-                                    <div className="offer-cricle-second-image">
-                                        <Image src={Offer4} alt="Hotel Offer Image" />
-                                    </div>
-                                </div>
-
-                                <div className="offer-text-wrap">
-                                    <div className="offer-text-heading">Latest Offer</div>
-                                    <div className="standard-text">Lorem Ipsum is simply dummy text of the printing </div>
-                                </div>
-
-                                <div className="offer-btn-wrap">
-                                    <div className="offer-btn">Book Now</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
-
                     <LiveTourPackage />
 
                     <SocialMediaFeeds />
