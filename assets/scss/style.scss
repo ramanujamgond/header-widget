@@ -1,7 +1,3 @@
-// Template Name: TamilNadu Tourism Development Corporation
-// Description: TTDC Website
-// Author: Bookingjini Labs
-
 // inter google font
 @import "_googlefonts";
 
@@ -29,6 +25,9 @@
 // base styles
 @import "_basestyle";
 
+// import react tabs
+@import "_reacttabs";
+
 //import top header style 
 @import "_topheader";
 
@@ -37,39 +36,3 @@
 
 // import header section
 @import "_header";
-
-// import our premium hotels
-@import "_ourpremiumhotel";
-
-// import package section
-@import "_hotelpackages";
-
-// import boat house section
-@import "_boathouse.scss";
-
-// import telescope house section
-@import "_telescopehouse.scss";
-
-// import last minute offer section
-@import "_lastminuteoffer";
-
-// import testamonial section
-@import "_testamonial";
-
-// import latestblog section
-@import "_latestblog";
-
-// import live packages section
-@import "_livetourpackage";
-
-// import social media feed section
-@import "_socialmediafeed";
-
-// import nearby hotel section
-@import "_nearbyhotels";
-
-// import footer book direct section
-@import "_footerbookdirect";
-
-// import footer section
-@import "_footer";

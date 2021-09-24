@@ -1,15 +1,4 @@
-.nearby-hotel-bg {
-    background-image: url('../images/nearby-hotel-bg.svg');
-    @include background-property();
-    background-position: bottom;
-    background-size: 100%;
-}
-
-.nearby-hotel-text {
-    @extend .package-heading-text;
-}
-
-// Tab custom style
+// // Tab custom style
 .react-tabs {
     .react-tabs__tab-list {
         margin-bottom: 1.5rem;

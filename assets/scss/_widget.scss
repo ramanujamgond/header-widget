@@ -46,6 +46,7 @@
                 border-bottom: 1px solid transparent !important;
             }
             .react-tabs__tab--selected {
+                color: $dark-text;
                 padding: 0.6rem 2rem 0.6rem 2rem !important;
                 background-color: $white-color !important;
                 border-radius: $border-radius8px;
@@ -74,7 +75,7 @@
         border-radius: $border-radius50px;
         .location-search-wrapper {
             .location-search {
-                width: 260px;
+                width: 360px;
                 border-color: $white-color;
                 margin-left: 1.5rem;
             }
@@ -82,7 +83,7 @@
         .date-picker-wrapper-checkIn {
             transform: (translate(0, 20%));
             .date-picker-check-in {
-                width: 160px;
+                width: 240px;
                 border-color: $white-color;
             }
             &::before {
@@ -102,21 +103,6 @@
             }
             &::before {
                 content:"Check Out ▼";
-                position: absolute;
-                top: -0.6rem;
-                font-size: 80%;
-                color: $sucess-color;
-                margin-left: 0.8rem;
-            }
-        }
-        .guest-select-wrapper {
-            transform: (translate(0, 20%));
-            .guest-select-dropdown {
-                width: 150px;
-                border-color: $white-color;
-            }
-            &::before {
-                content:"Guest ▼";
                 position: absolute;
                 top: -0.6rem;
                 font-size: 80%;
