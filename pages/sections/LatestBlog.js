@@ -21,10 +21,6 @@ const LatestBlog = () => {
                             <div className="package-carousel">
                                 <Image src={BlogPost1} alt="Image of a tourist place in coimbatore" />
                                 <div className="blog-section-wrap">
-                                    <div className="blog-section-label">
-                                        <span className="blog-tab-line">Sightseeing</span>
-                                        <span className="blog-tab-line">Places</span>
-                                    </div>
                                     <div className="blog-title mt-2">Beauty of Kodaikanal, Divine Place</div>
                                     <div className="blog-time-details">24 Aug 2013 | 4 mins read</div>
                                 </div>
@@ -37,10 +33,6 @@ const LatestBlog = () => {
                                     <div className="packages-images">
                                         <Image src={BlogPost2} alt="Hotel image in madurai" />
                                         <div className="blog-section-wrap">
-                                            <div className="blog-section-label">
-                                                <span className="blog-tab-line">Sightseeing</span>
-                                                <span className="blog-tab-line">Places</span>
-                                            </div>
                                             <div className="blog-title mt-2">Beauty of Kodaikanal, Divine Place</div>
                                             <div className="blog-time-details">24 Aug 2013 | 4 mins read</div>
                                         </div>
@@ -51,10 +43,6 @@ const LatestBlog = () => {
                                     <div className="packages-images">
                                         <Image src={BlogPost2} alt="Ooty a queen of hill station" />
                                         <div className="blog-section-wrap">
-                                            <div className="blog-section-label">
-                                                <span className="blog-tab-line">Sightseeing</span>
-                                                <span className="blog-tab-line">Places</span>
-                                            </div>
                                             <div className="blog-title mt-2">Beauty of Kodaikanal, Divine Place</div>
                                             <div className="blog-time-details">24 Aug 2013 | 4 mins read</div>
                                         </div>
@@ -68,10 +56,6 @@ const LatestBlog = () => {
                                     <div className="packages-images">
                                         <Image src={BlogPost3} alt="Hotel image in madurai" />
                                         <div className="blog-section-wrap">
-                                            <div className="blog-section-label">
-                                                <span className="blog-tab-line">Sightseeing</span>
-                                                <span className="blog-tab-line">Places</span>
-                                            </div>
                                             <div className="blog-title mt-2">Beauty of Kodaikanal, Divine Place</div>
                                             <div className="blog-time-details">24 Aug 2013 | 4 mins read</div>
                                         </div>

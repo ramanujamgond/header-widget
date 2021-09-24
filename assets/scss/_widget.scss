@@ -1,0 +1,140 @@
+// Widget Select Area 
+.widget-select-wrapper {
+    @include center-div-position();
+    top: 16rem;
+    width: 80%;
+    border-radius: 20px;
+    .widget-heading-wrapper {
+        @include center-div-position();
+        top: 3rem;
+        .standard-cursive-text {
+            top: -4rem;
+            left: -4rem;
+            transform: rotate(-34deg);
+        }
+        .widget-heading {
+            font-size: 4rem;
+            font-family: $playfair-font;
+            color: $white-color;
+            font-weight: $font-weight600;
+        }
+    }
+    .multiple-widget-item-wrapper {
+        @include center-div-position();
+        top: 13rem;
+        width: auto;
+        margin: 0 auto;
+        .react-tabs { 
+            .react-tabs__tab {
+                min-width: 190px;
+                text-align: center;
+                color: $white-color;
+                font-size: 100%;
+                border-color: transparent !important;
+                border-right: 1px solid #ffffff !important;
+                &:last-of-type {
+                    border-right: 1px solid transparent !important;
+                }
+            }
+            .react-tabs__tab-list {
+                max-width: 760px;
+                margin-left: auto;
+                margin-right: auto;
+                // background-color: rgba(255, 255, 255, 0.3);
+                backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+                border-radius: $border-radius8px;
+                border-bottom: 1px solid transparent !important;
+            }
+            .react-tabs__tab--selected {
+                padding: 0.6rem 2rem 0.6rem 2rem !important;
+                background-color: $white-color !important;
+                border-radius: $border-radius8px;
+                &:focus {
+                    border-bottom: unset !important;
+                    border-bottom: 2.5px solid transparent !important;
+                    // padding-bottom: 0.4rem !important;                
+                }
+                &::after {
+                    border-bottom: unset !important;
+                }
+                &:focus {
+                    &::after {
+                        background-color: transparent !important;
+                    }
+                }
+            }
+        }
+    }
+    .widget-date-range-picker {
+        @include center-div-flex();
+        position: relative;
+        width: auto;
+        height: auto;
+        background-color: $white-color;
+        border-radius: $border-radius50px;
+        .location-search-wrapper {
+            .location-search {
+                width: 260px;
+                border-color: $white-color;
+                margin-left: 1.5rem;
+            }
+        }
+        .date-picker-wrapper-checkIn {
+            transform: (translate(0, 20%));
+            .date-picker-check-in {
+                width: 160px;
+                border-color: $white-color;
+            }
+            &::before {
+                content:"Check In ▼";
+                position: absolute;
+                top: -0.6rem;
+                font-size: 80%;
+                color: $sucess-color;
+                margin-left: 0.8rem;
+            }
+        }
+        .date-picker-wrapper-checkOut {
+            transform: (translate(0, 20%));
+            .date-picker-check-out {
+                width: 160px;
+                border-color: $white-color;
+            }
+            &::before {
+                content:"Check Out ▼";
+                position: absolute;
+                top: -0.6rem;
+                font-size: 80%;
+                color: $sucess-color;
+                margin-left: 0.8rem;
+            }
+        }
+        .guest-select-wrapper {
+            transform: (translate(0, 20%));
+            .guest-select-dropdown {
+                width: 150px;
+                border-color: $white-color;
+            }
+            &::before {
+                content:"Guest ▼";
+                position: absolute;
+                top: -0.6rem;
+                font-size: 80%;
+                color: $sucess-color;
+                margin-left: 0.8rem;
+            }
+        }
+        .standard-search-btn {
+            color: $white-color;
+            @include primary-btn($primary-color, $primary-hover);
+            padding: 0.9rem 0.5rem;
+            border-radius: $border-radius50px;
+            &:hover {
+                border-color: $primary-hover;
+            }
+            &::before {
+                border-radius: $border-radius50px;
+            }
+        }
+    }
+} 
