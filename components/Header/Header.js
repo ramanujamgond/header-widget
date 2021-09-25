@@ -14,7 +14,7 @@ import Travelers74Mn from '../../assets/images/74mn-travelers.svg';
 import TopHeader from './TopHeader';
 
 // import widget
-import Widget from '../Widget/Widget';
+import HeaderWidget from '../Widget/HeaderWidget';
 
 const Header = () => {
     return (
@@ -65,7 +65,7 @@ const Header = () => {
                             <div className="widget-heading">Unexplored</div>
                         </div>
 
-                        <Widget />
+                        <HeaderWidget />
                     </div>
                     <div className="container">
                         <div className="row">

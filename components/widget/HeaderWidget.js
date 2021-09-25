@@ -4,7 +4,7 @@ import React from 'react';
 import { Tab, Tabs, TabList, TabPanel, resetIdCounter } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
-const Widget = () => {
+const HeaderWidget = () => {
     resetIdCounter();
     return (
         <>
@@ -58,4 +58,4 @@ const Widget = () => {
     )
 }
 
-export default Widget;
+export default HeaderWidget;
